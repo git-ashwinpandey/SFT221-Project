@@ -157,21 +157,38 @@ program. All the program needs to do is:
 
 Seneca Deliveries
 =================
-Enter shipment weight, box size and destination (0 0 x to stop): 20 .5 28x
-Invalid destination
-Enter shipment weight, box size and destination (0 0 x to stop): 20 2 12L
-Invalid size
-Enter shipment weight, box size and destination (0 0 x to stop): 1005 .5 12L
-Invalid weight (must be 1-1000 Kg.)
-Enter shipment weight, box size and destination (0 0 x to stop): 20 .5 12L
-Ship on BLUE LINE, no diversion
-Enter shipment weight, box size and destination (0 0 x to stop): 200 1.0 8Y
-Ship on GREEN LINE, divert: 7T, 7U, 7V, 7W, 7X, 7Y, 8Y
-Enter shipment weight, box size and destination (0 0 x to stop): 50 0 1.0 8Y
-Ship on GREEN LINE, divert: 7T, 7U, 7V, 7W, 7X, 7Y, 8Y
-Enter shipment weight, box size and destination (0 0 x to stop): 500 1.0 8Y
-Ship on BLUE LINE, divert 18V, 17V, 16V, 15V, 14V, 13V, 12V, 11V, 10V, 9V,
-8V, 7V, 7W, 7X, 7Y, 8Y
-Enter shipment weight, box size and destination (0 0 x to stop): 0 0 x
-Thanks for shipping with Seneca!
+Enter shipment Weight, Box size, and destination: 1000 1 8Y
+Weight: 1000
+Volume: 1.0
+Destination: 8Y
+
+Time to find a truck....
+Shipment added to Green truck successfully.
+Divert: 10X->10W->9V->8V->7W->7X->8Y
+
+Enter shipment Weight, Box size, and destination: 1000 1 8Y
+Weight: 1000
+Volume: 1.0
+Destination: 8Y
+
+Time to find a truck....
+Shipment added to Blue truck successfully.
+Divert: 17Y->17X->17W->16V->15V->14V->13V->12V->11W->10X->10Y
+
+Enter shipment Weight, Box size, and destination: 1000 1 8Y
+Weight: 1000
+Volume: 1.0
+Destination: 8Y
+
+Time to find a truck....
+Shipment added to Yellow truck successfully.
+Divert: 20X->20W->20V->20U->20T->20S->20R->20Q->20P->20O->20N->19M->18N->17O->17P->17Q->16R->15R->14R->13R->12R->11S->10T->9U->8V->7W->7X->8Y
+
+Enter shipment Weight, Box size, and destination: 1000 1 8Y
+Weight: 1000
+Volume: 1.0
+Destination: 8Y
+
+Time to find a truck....
+Package will ship tomorrow
 ```
